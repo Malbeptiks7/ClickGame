@@ -4,34 +4,48 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Download My Game</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
     <link rel="stylesheet" href="style.css">
   </head>
   <body>
     <header>
-	  <nav>
-		<h1>My Game</h1>
-		<ul>
-		  <li><a href="#download">Download</a></li>
-		  <li><a href="#socials">Social Media</a></li>
-		</ul>
+	  <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+		<a class="navbar-brand" href="#">My Game</a>
+		<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+		  <span class="navbar-toggler-icon"></span>
+		</button>
+		<div class="collapse navbar-collapse" id="navbarNav">
+		  <ul class="navbar-nav ml-auto">
+			<li class="nav-item">
+			  <a class="nav-link" href="#download">Download</a>
+			</li>
+			<li class="nav-item">
+			  <a class="nav-link" href="#socials">Social Media</a>
+			</li>
+		  </ul>
+		</div>
 	  </nav>
     </header>
-    <main>
-	  <section id="download">
+    <main class="container mt-5">
+	  <section id="download" class="text-center">
 		<h2>Download My Game</h2>
 		<p>Click the button below to download and install the game.</p>
-		<a href="path/to/your_game.apk" class="download-btn" download>Download APK</a>
+		<a href="game.apk" class="btn btn-primary btn-lg" download>Download APK</a>
 	  </section>
-	  <section id="socials">
+	  <hr>
+	  <section id="socials" class="text-center">
 		<h2>Follow Me</h2>
 		<p>Connect with me on my social media channels:</p>
-		<a href="https://t.me/biochca" target="_blank">Telegram</a>
-		<a href="https://www.tiktok.com/@вадимка" target="_blank">TikTok</a>
+		<a href="https://t.me/biochca" class="btn btn-info btn-lg" target="_blank">Telegram</a>
+		<a href="https://www.tiktok.com/@вадимка" class="btn btn-danger btn-lg" target="_blank">TikTok</a>
 	  </section>
     </main>
-    <footer>
+    <footer class="text-center mt-5">
 	  <p>© 2025 My Game. All rights reserved.</p>
     </footer>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.6.0/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
     <script src="script.js"></script>
   </body>
 </html>

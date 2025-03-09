@@ -1,40 +1,49 @@
 body {
     font-family: Arial, sans-serif;
-    background-color: #f8f9fa;
+    background-color: #121212;
+    color: #ffffff;
 }
 
 header {
-    background-color: #343a40;
-    color: #ffffff;
-    padding: 1rem;
+    background-color: #1a1a1a;
 }
 
-nav ul {
-    list-style: none;
-    display: flex;
-    justify-content: space-around;
-}
-
-nav a {
-    color: #ffffff;
-    text-decoration: none;
+.navbar-brand {
+    font-size: 1.5rem;
     font-weight: bold;
 }
 
-.download-btn {
-    display: inline-block;
-    padding: 0.5rem 1rem;
-    background-color: #007bff;
+.navbar-nav .nav-link {
     color: #ffffff;
-    text-decoration: none;
-    border-radius: 5px;
+}
+
+main {
+    padding: 2rem;
+}
+
+section {
+    margin-bottom: 2rem;
+}
+
+.btn-primary {
+    background-color: #007bff;
+    border-color: #007bff;
+}
+
+.btn-info {
+    background-color: #17a2b8;
+    border-color: #17a2b8;
+}
+
+.btn-danger {
+    background-color: #dc3545;
+    border-color: #dc3545;
 }
 
 footer {
-    text-align: center;
-    padding: 1rem;
-    background-color: #343a40;
+    background-color: #1a1a1a;
     color: #ffffff;
+    padding: 1rem;
     position: fixed;
     bottom: 0;
     width: 100%;
