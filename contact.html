@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Контакты</title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <header>
+	  <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+		<a class="navbar-brand" href="index.html">Моя игра</a>
+		<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+		  <span class="navbar-toggler-icon"></span>
+		</button>
+		<div class="collapse navbar-collapse" id="navbarNav">
+		  <ul class="navbar-nav ml-auto">
+			<li class="nav-item">
+			  <a class="nav-link" href="about.html">О игре</a>
+			</li>
+			<li class="nav-item">
+			  <a class="nav-link" href="index.html#download">Скачать</a>
+			</li>
+			<li class="nav-item">
+			  <a class="nav-link" href="index.html#install">Руководство по установке</a>
+			</li>
+			<li class="nav-item">
+			  <a class="nav-link" href="index.html#reviews">Отзывы</a>
+			</li>
+			<li class="nav-item">
+			  <a class="nav-link" href="gallery.html">Галерея</a>
+			</li>
+			<li class="nav-item">
+			  <a class="nav-link" href="index.html#socials">Социальные сети</a>
+			</li>
+			<li class="nav-item">
+			  <a class="nav-link" href="index.html#game">Игра Крестики-нолики</a>
+			</li>
+			<li class="nav-item">
+			  <a class="nav-link" href="index.html#favorite-song">Моя любимая песня</a>
+			</li>
+			<li class="nav-item">
+			  <a class="nav-link" href="contact.html">Контакты</a>
+			</li>
+		  </ul>
+		</div>
+	  </nav>
+    </header>
+    <main class="container mt-5">
+	  <section id="contact" class="text-center">
+		<h2>Контакты</h2>
+		<p>Свяжитесь со мной через следующие каналы:</p>
+		<p>Email: <a href="mailto:your-email@example.com">your-email@example.com</a></p>
+		<p>Телефон: +123-456-7890</p>
+		<p>Вы также можете отправить сообщение через форму ниже:</p>
+		<form action="mailto:your-email@example.com" method="post" enctype="text/plain">
+		  <div class="form-group">
+			<label for="name">Имя:</label>
+			<input type="text" id="name" name="name" class="form-control" required>
+		  </div>
+		  <div class="form-group">
+			<label for="email">Email:</label>
+			<input type="email" id="email" name="email" class="form-control" required>
+		  </div>
+		  <div class="form-group">
+			<label for="message">Сообщение:</label>
+			<textarea id="message" name="message" class="form-control" rows="4" required></textarea>
+		  </div>
+		  <button type="submit" class="btn btn-primary">Отправить</button>
+		</form>
+	  </section>
+    </main>
+    <footer class="text-center mt-5">
+	  <p>© 2025 Моя игра. Все права защищены.</p>
+    </footer>
+  </body>
+</html>
