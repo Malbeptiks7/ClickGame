@@ -26,7 +26,16 @@
 			  <a class="nav-link" href="#install">Install Guide</a>
 			</li>
 			<li class="nav-item">
+			  <a class="nav-link" href="#reviews">Reviews</a>
+			</li>
+			<li class="nav-item">
+			  <a class="nav-link" href="#gallery">Gallery</a>
+			</li>
+			<li class="nav-item">
 			  <a class="nav-link" href="#socials">Social Media</a>
+			</li>
+			<li class="nav-item">
+			  <a class="nav-link" href="#game">Play Tic-Tac-Toe</a>
 			</li>
 		  </ul>
 		</div>
@@ -53,11 +62,42 @@
 		</ol>
 	  </section>
 	  <hr>
+	  <section id="reviews">
+		<h2>Player Reviews</h2>
+		<p>"This game is amazing! I can't stop playing it." - Alex</p>
+		<p>"One of the best games I've ever played. Highly recommend!" - Maria</p>
+	  </section>
+	  <hr>
+	  <section id="gallery" class="text-center">
+		<h2>Game Gallery</h2>
+		<img src="screenshot1.png" alt="Screenshot 1" class="img-fluid mb-2">
+		<img src="screenshot2.png" alt="Screenshot 2" class="img-fluid mb-2">
+		<img src="screenshot3.png" alt="Screenshot 3" class="img-fluid mb-2">
+	  </section>
+	  <hr>
 	  <section id="socials" class="text-center">
 		<h2>Follow Me</h2>
 		<p>Connect with me on my social media channels:</p>
 		<a href="https://t.me/biochca" class="btn btn-info btn-lg" target="_blank">Telegram</a>
 		<a href="https://www.tiktok.com/@вадимка" class="btn btn-danger btn-lg" target="_blank">TikTok</a>
+	  </section>
+	  <hr>
+	  <section id="game" class="text-center">
+		<h2>Play Tic-Tac-Toe</h2>
+		<div class="tic-tac-toe">
+		  <div class="board">
+			<div class="cell" data-index="0"></div>
+			<div class="cell" data-index="1"></div>
+			<div class="cell" data-index="2"></div>
+			<div class="cell" data-index="3"></div>
+			<div class="cell" data-index="4"></div>
+			<div class="cell" data-index="5"></div>
+			<div class="cell" data-index="6"></div>
+			<div class="cell" data-index="7"></div>
+			<div class="cell" data-index="8"></div>
+		  </div>
+		  <button class="btn btn-primary mt-3" onclick="resetGame()">Reset Game</button>
+		</div>
 	  </section>
     </main>
     <footer class="text-center mt-5">
