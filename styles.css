@@ -19,10 +19,15 @@ header {
 
 main {
     padding: 2rem;
+    background: url('background.jpg') no-repeat center center fixed;
+    background-size: cover;
 }
 
 section {
     margin-bottom: 2rem;
+    background-color: rgba(0, 0, 0, 0.7);
+    padding: 2rem;
+    border-radius: 10px;
 }
 
 .btn-primary {
@@ -38,6 +43,12 @@ section {
 .btn-danger {
     background-color: #ff0000;
     border-color: #ff0000;
+}
+
+.btn-warning {
+    background-color: #ffc107;
+    border-color: #ffc107;
+    color: #000;
 }
 
 footer {
